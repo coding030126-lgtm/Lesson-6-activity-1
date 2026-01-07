@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Personal Details Form</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+        }
+
+        form {
+            display: inline-block;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Personal Details Form</h2>
+
+    <form>
+
+        <!-- Name -->
+        <label>Name:</label><br>
+        <input type="text" placeholder="Enter your name"><br><br>
+
+        <!-- Email -->
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email"><br><br>
+
+        <!-- Contact Number (Masked) -->
+        <label>Contact Number:</label><br>
+        <input type="password" placeholder="Enter contact number"><br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male<br>
+        <input type="radio" name="gender"> Female<br>
+        <input type="radio" name="gender"> Other<br><br>
+
+        <!-- Favourite City -->
+        <label>Favourite City:</label><br>
+            <input type="checkbox" id="city" value="Kolkata">Kolkata<br>
+            <input type="checkbox" id="city" value="Mumbai">Mumbai<br>
+            <input type="checkbox" id="city" value="New Delhi">New Delhi<br>
+            <input type="checkbox" id="city" value="Bangalore">Bangalore<br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
